@@ -1,0 +1,28 @@
+p{
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+h1{
+    color: cadetblue;
+    font-weight: bold;
+
+}
+h2{text-transform: uppercase;}
+
+.prueba{
+    color: coral;
+    font-size: 20px;
+}
+#rojo{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    text-align: center;
+}
+#azul{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+}
