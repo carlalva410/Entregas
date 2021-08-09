@@ -26,3 +26,9 @@ h2{text-transform: uppercase;}
     background-color: blue;
     text-align: center;
 }
+#verde{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    text-align: center;
+}
