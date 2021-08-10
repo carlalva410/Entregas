@@ -1,1 +1,7 @@
-body {background-color: #282828; color: whitesmoke; font-family: 'Rajdhani', sans-serif; text-align: center;}
+body {background: #282828;
+    background: -moz-linear-gradient(top,  #282828 24%, #282828 53%, #1b3a2a 81%, #23d27a 100%);
+    background: -webkit-linear-gradient(top,  #282828 24%,#282828 53%,#1b3a2a 81%,#23d27a 100%);
+    background: linear-gradient(to bottom,  #282828 24%,#282828 53%,#1b3a2a 81%,#23d27a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#282828', endColorstr='#23d27a',GradientType=0 );
+    color: whitesmoke; font-family: 'Rajdhani', sans-serif; text-align: center;
+    }
