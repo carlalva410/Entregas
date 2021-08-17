@@ -5,3 +5,10 @@ body {background: #282828;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#282828', endColorstr='#23d27a',GradientType=0 );
     color: whitesmoke; font-family: 'Rajdhani', sans-serif; text-align: center;
     }
+    img {
+        border-radius: 20px;
+    }
+
+    .sdicon {
+        font-size: 20px;
+    }
