@@ -1,3 +1,6 @@
+html {
+    text-rendering: optimizeLegibility; 
+}
 body {background: #282828;
     background: -moz-linear-gradient(top,  #282828 24%, #282828 53%, #1b3a2a 81%, #23d27a 100%);
     background: -webkit-linear-gradient(top,  #282828 24%,#282828 53%,#1b3a2a 81%,#23d27a 100%);
@@ -13,24 +16,30 @@ img {
         font-size: 20px;
     }
 #box {
+        box-sizing: content-box;
         border: 1px solid whitesmoke;
         background-color: #282828;
+        padding: 5px;
         margin: 0px auto;
         width: 20%;
-        height: 200px;
+        height: 250px;
 
     }
     label{
         display: block;
         float: left;
         width : 100px;    
-      }
-      input[type=reset], input[type=submit] {
+    }
+    input[type=reset], input[type=submit] {
         background-color: #23d27a;
         border: none;
         color: white;
         padding: 12px 24px;
         text-decoration: none;
-        margin: 5px 4px;
+        margin: 3px 2px;
         cursor: pointer;  
+    }
+    ul {
+      text-align: center;
+      list-style-position: inside;
     }
