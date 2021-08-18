@@ -40,11 +40,10 @@ img {
         background-color: #23d27a;
         border: none;
         color: white;
-        padding: 12px 24px;
+        padding: 13px 26px;
         text-decoration: none;
-        margin: 4px 3px;
-        cursor: pointer;
-        display: ruby-base-container;  
+        margin: 5px 4px;
+        cursor: pointer;  
     }
     ul {
       text-align: center;
