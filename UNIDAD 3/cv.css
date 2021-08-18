@@ -25,10 +25,16 @@ img {
         height: 250px;
 
     }
-    label{
+    label {
         display: block;
         float: left;
-        width : 100px;    
+        width: 100px;
+        text-align: left;    
+    }
+    input[type=text] {
+        display: block;
+        float: right;
+        
     }
     input[type=reset], input[type=submit] {
         background-color: #23d27a;
@@ -36,8 +42,9 @@ img {
         color: white;
         padding: 12px 24px;
         text-decoration: none;
-        margin: 3px 2px;
-        cursor: pointer;  
+        margin: 4px 3px;
+        cursor: pointer;
+        display: ruby-base-container;  
     }
     ul {
       text-align: center;
